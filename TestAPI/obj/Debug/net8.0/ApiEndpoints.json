@@ -1,0 +1,87 @@
+[
+  {
+    "ContainingType": "TestAPI.Controllers.SenseBoxController",
+    "Method": "GetSenseBox",
+    "RelativePath": "SenseBox/GetSenseBox",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "senseBoxId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "format",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.SenseBoxController",
+    "Method": "NewSenseBox",
+    "RelativePath": "SenseBox/NewSenseBox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TestAPI.Models.TestAPI.SenseBox.Models.SenseBoxRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TestAPI.Models.TestAPI.User.Models.UserRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.UserController",
+    "Method": "Logout",
+    "RelativePath": "User/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TestAPI.Models.TestAPI.User.Models.UserRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestAPI.Controllers.UserController",
+    "Method": "RegisterUser",
+    "RelativePath": "User/RegisterUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TestAPI.Models.TestAPI.User.Models.UserRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
