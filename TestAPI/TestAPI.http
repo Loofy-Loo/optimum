@@ -1,6 +1,0 @@
-@TestAPI_HostAddress = http://localhost:5043
-
-POST {{TestAPI_HostAddress}}/register/RegisterUser
-Accept: application/json
-
-###
